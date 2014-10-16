@@ -1,0 +1,7 @@
+[
+    {
+    	"id":	"Faron the Falcon",
+    	"caption": "Preview in domain",
+    	"command": "open_browser_url",
+    }
+]

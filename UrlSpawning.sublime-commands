@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "Preferences: Open with URL Settings – Default",
+        "command": "open_browser_url",
+        "args": {
+            "file": "${packages}/URLSpawning/URLSpawning.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Open with URL Settings – User",
+        "command": "open_browser_url",
+        "args": {
+            "file": "${packages}/User/URLSpawning.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Open with URL Key Bindings – Default",
+        "command": "open_browser_url",
+        "args": {
+            "file": "${packages}/URLSpawning/URLSpawning.sublime-keymap"
+        }
+    },
+        {
+        "caption": "Preferences: Open with URL Key Bindings – User",
+        "command": "open_browser_url",
+        "args": {
+            "file": "${packages}/User/URLSpawning.sublime-keymap"
+        }
+    }
+]
