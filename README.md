@@ -14,6 +14,6 @@ When this is being done - a new file will be created in name of 'restore-chmod-c
 
 Voila!
 
-This will only work if you have perform this script earlier before the accident.  
+This will only work if you have performed this script earlier before the accident.  
 
 Recommendation:  perform this script at the end of fresh installation of your system, and archive the newly created restore-chmod-chown.sh somewhere safe in your system (i.e. USB or cloud).
