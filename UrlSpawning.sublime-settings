@@ -1,5 +1,0 @@
-{
-	// Default :: it'll open your browser with url of 'file://'
-	// Insert your URL that you wish Sublime to default opening in your URL //
-	"path": "/home/faron/lib/script/htmls/projects"
-}

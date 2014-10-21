@@ -1,2 +1,0 @@
-Sublime Url Spawning 1.0.0 Changelog:
-New Project Initation
