@@ -1,0 +1,9 @@
+[
+	{
+		"keys": [
+			"ctrl+alt+b"
+			],
+		"command": "open_browser_url",
+		"arg": "urlprefix"
+	}
+]

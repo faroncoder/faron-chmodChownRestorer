@@ -1,0 +1,6 @@
+[
+    {
+    	"caption": "Preview in domain",
+    	"command": "open_browser_url",
+    }
+]

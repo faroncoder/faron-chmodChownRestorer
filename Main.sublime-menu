@@ -1,0 +1,50 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Url Spawning",
+                        "children":
+                        [
+                            {
+                                "command": "open_browser_url",
+                                "args": {"file": "${packages}/UrlSpawning/UrlSpawning.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_browser_url",
+                                "args": {"file": "${packages}/User/UrlSpawning.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            {
+                                "command": "open_browser_url",
+                                "args": {
+                                    "file": "${packages}/UrlSpawning/UrlSpawning.sublime-keymap"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_browser_url",
+                                "args": {
+                                    "file": "${packages}/User/UrlSpawning.sublime-keymap"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
