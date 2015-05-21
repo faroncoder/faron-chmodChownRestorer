@@ -1,4 +1,5 @@
 #!/bin/bash
+startgreen=`date +%s`
 
 pathdir="$PWD"
 locpath="$1"
@@ -24,7 +25,7 @@ locpath="$1"
                               echo "done!"
                         fi
                   getmod_getowner_allfiles
-                  exit 0
+stopred=`date +%s`; faronruntime=$(( $stopred - $startgreen )); echo "$0 | $startgreen | $stopred | $faronruntime " >> ~/.falcon/logs/scripts.log; exit 0
               fi
               fi
               if  [ $locpath == "a" ]
@@ -39,7 +40,7 @@ locpath="$1"
                                 echo "done!"
                             fi
                   getmod_getowner_allfiles
-                  exit 0                 
+stopred=`date +%s`; faronruntime=$(( $stopred - $startgreen )); echo "$0 | $startgreen | $stopred | $faronruntime " >> ~/.falcon/logs/scripts.log; exit 0
               fi
               filelocpath="$pathdir/$locpath"
               echo -n "confirming: $filelocpath (y/n) ? "
@@ -51,13 +52,13 @@ locpath="$1"
                          echo "done!"
                   fi
                   getmod_getowner_allfiles
-                  exit 0
+stopred=`date +%s`; faronruntime=$(( $stopred - $startgreen )); echo "$0 | $startgreen | $stopred | $faronruntime " >> ~/.falcon/logs/scripts.log; exit 0
         fi      
   
   if [ $commandget == "e" ]
       then
       chmod +x $PWD/restore-chmod-chown.sh
-      exit 0
+stopred=`date +%s`; faronruntime=$(( $stopred - $startgreen )); echo "$0 | $startgreen | $stopred | $faronruntime " >> ~/.falcon/logs/scripts.log; exit 0
   fi
   getmod_getowner_allfiles
-exit 0
+stopred=`date +%s`; faronruntime=$(( $stopred - $startgreen )); echo "$0 | $startgreen | $stopred | $faronruntime " >> ~/.falcon/logs/scripts.log; exit 0
